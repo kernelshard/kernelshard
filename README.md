@@ -148,7 +148,6 @@
 **Website/Bio**: [https://kernelshard.github.io](https://kernelshard.github.io)  
 **Blog**: [https://medium.com/@kernelshard](https://medium.com/@kernelshard)  
 **LinkedIn**: [https://www.linkedin.com/in/kernelshard/](https://www.linkedin.com/in/kernelshard/)  
-**Email**: samiul.sk.ce@gmail.com
 
 </div>
 
