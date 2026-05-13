@@ -26,7 +26,6 @@
 
 <p align="center">
   <strong>Senior Backend Engineer · Python · Go · Microservices · AI-driven Backends</strong><br>
-  <span>🚀 <strong>Open to senior backend roles (remote / hybrid)</strong></span>
 </p>
 
 <div align="center">
