@@ -56,7 +56,7 @@
 ## 💼 What I bring
 
 - **Core strengths**: System design for scalability & reliability, asynchronous APIs, distributed task systems, cloud-native deployments
-- **Delivery**: Led/maintained production SDKs (author/maintainer of [imagekit-python](https://github.com/imagekit-developer/imagekit-python)), built observability pipelines and CI/CD workflows
+- **Delivery**: Led/maintained production SDKs (Original author of [imagekit-python](https://github.com/imagekit-developer/imagekit-python)), built observability pipelines and CI/CD workflows
 - **Special focus**: Practical, engineering-first LLM/RAG integrations that are operationally safe and cost-aware
 
 ---
