@@ -1,31 +1,29 @@
 <!-- README for kernelshard (Samiul Sk) -->
 
 <div align="center">
-
-![](https://komarev.com/ghpvc/?username=kernelshard&style=for-the-badge&color=36BCF7)
-
+  <img src="https://komarev.com/ghpvc/?username=kernelshard&style=for-the-badge&color=222222&labelColor=36BCF7" alt="Profile views" />
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2000&pause=900&color=36BCF7&center=true&vCenter=true&multiline=true&width=700&height=60&lines=Hi%2C+I%27m+" style="margin-bottom: -18px;" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2000&pause=900&color=36BCF7&center=true&vCenter=true&width=700&height=70&lines=Hi%2C+I%27m+Sam.;Senior+Backend+Engineer.;Building+distributed+systems." alt="Typing SVG"/>
 </p>
 
 <p align="center">
-  <svg width="360" height="60">
+  <svg width="500" height="50">
     <defs>
       <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" style="stop-color:#36BCF7;stop-opacity:1" />
         <stop offset="100%" style="stop-color:#8F43EA;stop-opacity:1" />
       </linearGradient>
     </defs>
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="38" font-family="Fira Code, monospace" font-weight="bold" fill="url(#grad1)">
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="30" font-family="Fira Code, monospace" font-weight="bold" fill="url(#grad1)">
       Samiul (Sam) | kernelshard
     </text>
   </svg>
 </p>
 
 <p align="center">
-  <strong>Senior Backend Engineer · Python · Go · Distributed Systems</strong><br>
+  <code>Senior Backend Engineer</code> • <code>6+ Years</code> • <code>Distributed Systems</code>
 </p>
 
 <div align="center">
@@ -39,128 +37,80 @@
 
 ---
 
-<blockquote align="center">
-  <strong>Precision is freedom. Build systems that tell the truth.</strong>
-</blockquote>
+> [!IMPORTANT]
+> **Precision is freedom. Build systems that tell the truth.**
 
 ---
 
-## 🎯 Snapshot — who I am (TL;DR)
+### 🧰 The Senior Toolbelt (TL;DR)
 
-- **Senior Backend Engineer (6+ years)** — production systems in Python and Go
-- **Focus**: reliable microservices, distributed systems, async APIs, and observability
-- I maintain production SDKs, ship infra improvements, and turn vague reliability problems into measurable SLAs
-
----
-
-## 💼 What I bring
-
-- **Core strengths**: System design for scalability & reliability, asynchronous APIs, distributed task systems, event-driven architecture, cloud-native deployments
-- **Delivery**: Led/maintained production SDKs (original author of [imagekit-python](https://github.com/imagekit-developer/imagekit-python)), built observability pipelines and CI/CD workflows
-- **Currently building**: distributed systems in Go — message queues, gRPC services, worker orchestration
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | Go · Python |
+| **Frameworks** | gRPC · FastAPI · Django · Gin |
+| **Data & Streaming** | PostgreSQL · Kafka · RabbitMQ · Kinesis · Redis |
+| **Infra & Ops** | Docker · AWS · Prometheus · Grafana |
+| **Architecture & Patterns** | Microservices · Event‑Driven · CQRS · Hexagonal · Saga |
 
 ---
 
-## 🛠️ Tech stack
+### ⚡ What I Bring to the Table
+
+| Area | How I Deliver |
+| :--- | :--- |
+| **🚀 Complexity** | Turn ambiguous reqs into decoupled, event-driven microservices with strict API contracts. |
+| **📈 Performance** | Engineer low-allocation, high-concurrency primitives. Optimize for p99 & throughput *before* they break. |
+| **🔭 Observability** | Make structured logs, Prometheus metrics, and SLAs a **default**—not an afterthought. |
+| **🧑‍🏫 Team Growth** | Mentor juniors, enforce strict interface boundaries, and own the on-call rotation. |
+
+---
+
+### 🧠 Engineering Philosophy
+
+> **Explicit > Magical.**  
+> I choose **composable, boring libraries** over clever abstractions that hide failure modes.  
+> If a service doesn’t expose its internal state via metrics and traces, it is **incomplete**.
+
+---
+
+### 🚀 Projects That Move the Needle
+
+#### ⚙️ [forge](https://github.com/kernelshard/forge) — Distributed Job Queue `Go`
+- **Event-driven architecture:** Designed with Kafka messaging to achieve **~40% lower API latency** over traditional polling layouts.
+- **Resilient core:** Token-bucket rate limiter, heap-based priority queue, and LRU cache primitives. 
+- **Zero downtime:** Worker pools gracefully drain on `SIGTERM` — **zero lost jobs** during deployments.
+
+#### 🌐 [expose](https://github.com/kernelshard/expose) — Secure Reverse Tunnel `Go`
+- **Multiplexed streams:** Handles **100s of concurrent tunnels** over a single TCP connection.
+- **Zero-allocation core:** Optimized internal proxy loops using `sync.Pool` to **crush GC pressure** during high-throughput transfers.
+
+#### 📦 [imagekit-python](https://github.com/imagekit-developer/imagekit-python) — Official Python SDK
+- Original author & core maintainer serving **hundreds of enterprise clients**.
+- **Zero breaking changes** across 3 major Python versions — fully thread-safe & async-ready.
+
+---
+
+### 📊 Activity Dashboard
 
 <div align="center">
-
-### Languages & Frameworks
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="40" alt="Go"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="FastAPI"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="Django"/>
-
-### Databases & Caching
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="40" alt="Redis"/>
-
-### Messaging & RPC
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" height="40" alt="Kafka"/>
-
-### DevOps & Cloud
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="Kubernetes"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="40" alt="AWS"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="40" alt="GitHub Actions"/>
-
-### Monitoring & Observability
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" height="40" alt="Prometheus"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" height="40" alt="Grafana"/>
-
-</div>
-
-**Tools**: Celery, GitHub Actions, Prometheus, Grafana, protobuf/gRPC
-
----
-
-## 🚀 Selected projects
-
-### [forge](https://github.com/kernelshard/forge) — distributed job queue system (Go)
-A production-style distributed job processing system built from the ground up:
-- **Event-driven architecture** — Kafka producer/consumer replacing HTTP polling between services
-- **gRPC** — service-to-service status reporting between API and Worker
-- **PostgreSQL** (pgxpool) — durable job persistence with proper error handling
-- **JWT auth + per-IP rate limiting** — token bucket implementation
-- **Generic LRU cache**, priority queue (heap-based), graceful worker pool shutdown
-- Clean service boundaries: `cmd/forge` (API) and `cmd/worker` (processor) as independently deployable services sharing only `pkg/`
-
-### [imagekit-python](https://github.com/imagekit-developer/imagekit-python) — Python SDK for ImageKit (maintainer)
-- Production-ready SDK with tests and clear API surface
-- Focus: reliability, backwards compatibility, and easy integration for client apps
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![](https://github-readme-stats.vercel.app/api?username=kernelshard&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=kernelshard&theme=tokyonight&hide_border=true)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=kernelshard&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
+  <img src="https://github-readme-stats.shion.dev/api?username=kernelshard&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="180" />
+  <img src="https://streak-stats.demolab.com/?user=kernelshard&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="180" />
+  <br><br>
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=kernelshard&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" height="180" />
 </div>
 
 ---
 
-## 🏆 What you get working with me
+### 🌱 Currently
 
-1. **Clear SLIs/SLAs** and a concrete roadmap to reach them
-2. **Observability-first designs** that surface problems before customers do
-3. **Distributed systems built with the right tradeoffs** — not over-engineered, not fragile
+> Deep in distributed systems — Kafka, gRPC, and the failure modes that come with running services at scale. Also focusing on data consistency via the **Saga Pattern**.
 
 ---
 
-## 👨‍💻 About me
+### 📫 Hit Me Up
 
-- 📍 Based in **Kolkata, India**
-- Calm about tradeoffs, allergic to vague roadmaps
-- Currently deep in distributed systems — Kafka, gRPC, and the failure modes that come with running services at scale
-
----
-
-## 📫 Connect
+Open to collabs on distributed systems, infrastructure ownership, or senior backend roles. Let's build something that doesn't fall over.
 
 <div align="center">
-
-**Website/Bio**: [https://kernelshard.github.io](https://kernelshard.github.io)  
-**Blog**: [https://medium.com/@kernelshard](https://medium.com/@kernelshard)  
-**LinkedIn**: [https://www.linkedin.com/in/kernelshard/](https://www.linkedin.com/in/kernelshard/)  
-
-</div>
-
----
-
-<div align="center">
-
-### 💡 Currently exploring
-
-![](https://img.shields.io/badge/Distributed%20Systems-36BCF7?style=for-the-badge)
-![](https://img.shields.io/badge/Event%20Driven%20Architecture-8F43EA?style=for-the-badge)
-![](https://img.shields.io/badge/gRPC-EA4335?style=for-the-badge)
-
-**Open to collaborations on distributed systems and backend infrastructure**
-
+  <sub><i>Built with 🖤, caffeine, and a deep hatred for silent failures.</i></sub>
 </div>
