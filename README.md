@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <strong>Senior Backend Engineer · Python · Go · Microservices · AI-driven Backends</strong><br>
+  <strong>Senior Backend Engineer · Python · Go · Distributed Systems</strong><br>
 </p>
 
 <div align="center">
@@ -48,16 +48,16 @@
 ## 🎯 Snapshot — who I am (TL;DR)
 
 - **Senior Backend Engineer (6+ years)** — production systems in Python and Go
-- **Focus**: reliable microservices, async APIs, observability, and LLM-enabled backend features
-- I maintain production SDKs, ship infra improvements, and enjoy turning vague reliability problems into measurable SLAs
+- **Focus**: reliable microservices, distributed systems, async APIs, and observability
+- I maintain production SDKs, ship infra improvements, and turn vague reliability problems into measurable SLAs
 
 ---
 
 ## 💼 What I bring
 
-- **Core strengths**: System design for scalability & reliability, asynchronous APIs, distributed task systems, cloud-native deployments
-- **Delivery**: Led/maintained production SDKs (Original author of [imagekit-python](https://github.com/imagekit-developer/imagekit-python)), built observability pipelines and CI/CD workflows
-- **Special focus**: Practical, engineering-first LLM/RAG integrations that are operationally safe and cost-aware
+- **Core strengths**: System design for scalability & reliability, asynchronous APIs, distributed task systems, event-driven architecture, cloud-native deployments
+- **Delivery**: Led/maintained production SDKs (original author of [imagekit-python](https://github.com/imagekit-developer/imagekit-python)), built observability pipelines and CI/CD workflows
+- **Currently building**: distributed systems in Go — message queues, gRPC services, worker orchestration
 
 ---
 
@@ -75,6 +75,9 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="40" alt="Redis"/>
 
+### Messaging & RPC
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" height="40" alt="Kafka"/>
+
 ### DevOps & Cloud
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="Kubernetes"/>
@@ -87,19 +90,24 @@
 
 </div>
 
-**Tools**: Celery, GitHub Actions, Prometheus, Grafana
+**Tools**: Celery, GitHub Actions, Prometheus, Grafana, protobuf/gRPC
 
 ---
 
 ## 🚀 Selected projects
 
+### [forge](https://github.com/kernelshard/forge) — distributed job queue system (Go)
+A production-style distributed job processing system built from the ground up:
+- **Event-driven architecture** — Kafka producer/consumer replacing HTTP polling between services
+- **gRPC** — service-to-service status reporting between API and Worker
+- **PostgreSQL** (pgxpool) — durable job persistence with proper error handling
+- **JWT auth + per-IP rate limiting** — token bucket implementation
+- **Generic LRU cache**, priority queue (heap-based), graceful worker pool shutdown
+- Clean service boundaries: `cmd/forge` (API) and `cmd/worker` (processor) as independently deployable services sharing only `pkg/`
+
 ### [imagekit-python](https://github.com/imagekit-developer/imagekit-python) — Python SDK for ImageKit (maintainer)
 - Production-ready SDK with tests and clear API surface
 - Focus: reliability, backwards compatibility, and easy integration for client apps
-
-### RAG & LLM backend prototypes (private & OSS snippets)
-- Small, focused repos that demonstrate safe prompting, cache strategies, and token-cost-aware batching
-- Purpose: show pragmatic design for augmenting existing backends with LLM features without turning your infra into an invoicing disaster
 
 ---
 
@@ -117,26 +125,19 @@
 
 ---
 
-## 🎯 Signals for recruiters / collaborators
+## 🏆 What you get working with me
 
-- ✅ Open to **senior backend roles** where I can: own API surface, influence infra/observability, and ship LLM features responsibly
-- 💰 **Preferred compensation**: market-competitive (USD / equity preferred), remote-first with occasional sync windows for IST overlap
-- 🌍 **Available**: immediate — please DM on [LinkedIn](https://www.linkedin.com/in/kernelshard/) or connect below
-
----
-
-## 🏆 Quick wins you'll get when we work together
-
-1. **Clear SLIs/SLAs** and a roadmap to reach them
-2. **Observability-first designs** that find problems before customers do
-3. **Incremental LLM integrations** that respect latency, cost, and user intent
+1. **Clear SLIs/SLAs** and a concrete roadmap to reach them
+2. **Observability-first designs** that surface problems before customers do
+3. **Distributed systems built with the right tradeoffs** — not over-engineered, not fragile
 
 ---
 
-## 👨‍💻 About me (short & human)
+## 👨‍💻 About me
 
-- 📍 Based in **Kolkata, India**. Calm about tradeoffs, allergic to vague roadmaps
-- 🏋️ Outside work: disciplined fitness focus (currently working on sustainable fat loss and chest symmetry), learning French, and reading cognitive-science-adjacent books
+- 📍 Based in **Kolkata, India**
+- Calm about tradeoffs, allergic to vague roadmaps
+- Currently deep in distributed systems — Kafka, gRPC, and the failure modes that come with running services at scale
 
 ---
 
@@ -156,10 +157,10 @@
 
 ### 💡 Currently exploring
 
-![](https://img.shields.io/badge/LLM%20Safety-8F43EA?style=for-the-badge)
-![](https://img.shields.io/badge/Distributed%20Tracing-36BCF7?style=for-the-badge)
-![](https://img.shields.io/badge/Cost%20Optimization-EA4335?style=for-the-badge)
+![](https://img.shields.io/badge/Distributed%20Systems-36BCF7?style=for-the-badge)
+![](https://img.shields.io/badge/Event%20Driven%20Architecture-8F43EA?style=for-the-badge)
+![](https://img.shields.io/badge/gRPC-EA4335?style=for-the-badge)
 
-**Open to collaborations on production-grade LLM integrations and observability tooling**
+**Open to collaborations on distributed systems and backend infrastructure**
 
 </div>
