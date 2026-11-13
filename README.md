@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <code>Senior Backend Engineer</code> • <code>6+ Years</code> • <code>Distributed Systems</code>
+  <code>Senior Backend Engineer</code> • <code>7+ Years</code> • <code>Distributed Systems</code>
 </p>
 
 <div align="center">
